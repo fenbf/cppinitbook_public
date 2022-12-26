@@ -1,3 +1,10 @@
+// ex 2 10 implicit conversions.cpp
+// example for "C++ Initialization Story"
+// https://leanpub.com/cppinitbook
+// by Bartlomiej Filipek
+// 2022
+// Creative Commons Licence
+
 #include <iostream>
 #include <string>
 
@@ -28,3 +35,4 @@ int main() {
     printProduct(someRandomNumber);
     printProduct({"a box", 2});
 }
+

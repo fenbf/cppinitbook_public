@@ -1,3 +1,10 @@
+// ex 2 5 multiple arguments and braces.cpp
+// example for "C++ Initialization Story"
+// https://leanpub.com/cppinitbook
+// by Bartlomiej Filipek
+// 2022
+// Creative Commons Licence
+
 #include <iostream>
 #include <string>
 
@@ -21,3 +28,4 @@ int main() {
     Product p{'x', 'y', 'z', 100.0};
     std::cout << p.name << ", " << p.value;
 }
+

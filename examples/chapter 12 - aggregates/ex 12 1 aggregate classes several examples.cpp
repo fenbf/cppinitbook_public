@@ -1,3 +1,10 @@
+// ex 12 1 aggregate classes several examples.cpp
+// example for "C++ Initialization Story"
+// https://leanpub.com/cppinitbook
+// by Bartlomiej Filipek
+// 2022
+// Creative Commons Licence
+
 #include <iostream>
 #include <numeric>
 #include <array>
@@ -26,3 +33,4 @@ int main() {
     std::array params {Param{"val", 10}, Param{"name", 42}};
     std::cout << "params[0].name " << params[0].name << '\n';
 }
+

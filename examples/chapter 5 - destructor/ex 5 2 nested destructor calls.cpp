@@ -1,3 +1,10 @@
+// ex 5 2 nested destructor calls.cpp
+// example for "C++ Initialization Story"
+// https://leanpub.com/cppinitbook
+// by Bartlomiej Filipek
+// 2022
+// Creative Commons Licence
+
 #include <iostream>
 #include <string>
 
@@ -37,3 +44,4 @@ private:
 int main() {
    Wrapper w;
 }
+

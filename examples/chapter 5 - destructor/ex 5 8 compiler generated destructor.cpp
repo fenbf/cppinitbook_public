@@ -1,3 +1,10 @@
+// ex 5 8 compiler generated destructor.cpp
+// example for "C++ Initialization Story"
+// https://leanpub.com/cppinitbook
+// by Bartlomiej Filipek
+// 2022
+// Creative Commons Licence
+
 #include <iostream>
 #include <string>
 
@@ -17,3 +24,4 @@ private:
 int main() {
     Product first{10, "basic"};
 }
+

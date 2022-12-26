@@ -1,3 +1,10 @@
+// ex 2 6 logging in constructors.cpp
+// example for "C++ Initialization Story"
+// https://leanpub.com/cppinitbook
+// by Bartlomiej Filipek
+// 2022
+// Creative Commons Licence
+
 #include <iostream>
 #include <stdexcept> // for std::invalid_argument
 
@@ -31,3 +38,4 @@ int main() {
         std::cout << "Error - " << ex.what() << '\n';
     }
 }
+

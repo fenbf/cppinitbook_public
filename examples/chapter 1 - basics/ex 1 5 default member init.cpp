@@ -1,3 +1,10 @@
+// ex 1 5 default member init.cpp
+// example for "C++ Initialization Story"
+// https://leanpub.com/cppinitbook
+// by Bartlomiej Filipek
+// 2022
+// Creative Commons Licence
+
 #include <iostream>
 #include <string>
 
@@ -23,3 +30,4 @@ int main() {
     CarInfo partial{"large car", 1975};
     printInfo(partial);
 }
+

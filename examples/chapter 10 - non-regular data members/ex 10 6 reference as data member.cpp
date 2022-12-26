@@ -1,3 +1,10 @@
+// ex 10 6 reference as data member.cpp
+// example for "C++ Initialization Story"
+// https://leanpub.com/cppinitbook
+// by Bartlomiej Filipek
+// 2022
+// Creative Commons Licence
+
 #include <iostream>
 #include <string>
 
@@ -28,3 +35,4 @@ int main() {
     //WrapperWithRef def {}; // cannot default construct                             
     //x = w; // error, cannot assign
 }
+

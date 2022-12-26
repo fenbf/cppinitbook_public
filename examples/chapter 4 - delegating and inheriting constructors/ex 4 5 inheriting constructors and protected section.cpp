@@ -1,3 +1,10 @@
+// ex 4 5 inheriting constructors and protected section.cpp
+// example for "C++ Initialization Story"
+// https://leanpub.com/cppinitbook
+// by Bartlomiej Filipek
+// 2022
+// Creative Commons Licence
+
 struct Base {
     int x{};
     int y{};
@@ -18,3 +25,4 @@ int main() {
     // Derived d{0};  // error: 'Base::Base(int)' is protected
     Derived d2{0, 1}; // fine
 }
+

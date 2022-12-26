@@ -1,3 +1,10 @@
+// ex 3 2 named copy elision.cpp
+// example for "C++ Initialization Story"
+// https://leanpub.com/cppinitbook
+// by Bartlomiej Filipek
+// 2022
+// Creative Commons Licence
+
 #include <iostream>
 #include <string>
 #include <array>
@@ -33,3 +40,4 @@ int main() {
     std::cout << "calling createProduct()\n";
     Product created = createProduct();
 }
+

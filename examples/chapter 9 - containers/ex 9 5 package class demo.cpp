@@ -1,3 +1,10 @@
+// ex 9 5 package class demo.cpp
+// example for "C++ Initialization Story"
+// https://leanpub.com/cppinitbook
+// by Bartlomiej Filipek
+// 2022
+// Creative Commons Licence
+
 #include <iostream>
 #include <string>
 #include <vector>
@@ -44,3 +51,4 @@ int main() {
     pack.AddProduct({"pencil", 12.0});
     pack.PrintContents();
 }
+

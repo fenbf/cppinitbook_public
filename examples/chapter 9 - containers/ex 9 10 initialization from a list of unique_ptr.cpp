@@ -1,3 +1,10 @@
+// ex 9 10 initialization from a list of unique_ptr.cpp
+// example for "C++ Initialization Story"
+// https://leanpub.com/cppinitbook
+// by Bartlomiej Filipek
+// 2022
+// Creative Commons Licence
+
 #include <iostream>
 #include <vector>
 #include <memory>
@@ -42,3 +49,4 @@ int main() {
         std::make_unique<Rectangle>()
     );
 }
+

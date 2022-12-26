@@ -1,3 +1,10 @@
+// ex 6 4 loops and ub.cpp
+// example for "C++ Initialization Story"
+// https://leanpub.com/cppinitbook
+// by Bartlomiej Filipek
+// 2022
+// Creative Commons Licence
+
 #include <vector>
 #include <iostream>
 
@@ -10,3 +17,4 @@ int main() {
     for (auto& i : getVec()[1])
         std::cout << i;
 }
+

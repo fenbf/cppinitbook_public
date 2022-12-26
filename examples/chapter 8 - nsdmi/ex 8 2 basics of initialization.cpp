@@ -1,3 +1,10 @@
+// ex 8 2 basics of initialization.cpp
+// example for "C++ Initialization Story"
+// https://leanpub.com/cppinitbook
+// by Bartlomiej Filipek
+// 2022
+// Creative Commons Licence
+
 #include <iostream>
 
 struct SimpleType {
@@ -8,3 +15,4 @@ int main() {
     SimpleType st;
     std::cout << "st.field is " << st.field << '\n';
 }
+

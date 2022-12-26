@@ -1,3 +1,10 @@
+// ex 12 5 designated init demo.cpp
+// example for "C++ Initialization Story"
+// https://leanpub.com/cppinitbook
+// by Bartlomiej Filipek
+// 2022
+// Creative Commons Licence
+
 #include <iostream>
 #include <string>
 
@@ -28,3 +35,4 @@ int main() {
     // not all members used:
     Print({.name_ = "car", .price_{2000.0}});
 }
+

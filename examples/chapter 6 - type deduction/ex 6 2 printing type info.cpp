@@ -1,3 +1,10 @@
+// ex 6 2 printing type info.cpp
+// example for "C++ Initialization Story"
+// https://leanpub.com/cppinitbook
+// by Bartlomiej Filipek
+// 2022
+// Creative Commons Licence
+
 #include <iostream>
 
 template <typename T>
@@ -36,4 +43,5 @@ int main() {
     auto&& refu = refunknown;
     typeNames<decltype(u), decltype(refu)>("\nu and refu: ");
 }
+
 

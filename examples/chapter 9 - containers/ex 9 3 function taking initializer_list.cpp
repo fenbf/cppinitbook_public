@@ -1,3 +1,10 @@
+// ex 9 3 function taking initializer_list.cpp
+// example for "C++ Initialization Story"
+// https://leanpub.com/cppinitbook
+// by Bartlomiej Filipek
+// 2022
+// Creative Commons Licence
+
 #include <iostream>
 #include <initializer_list>
 
@@ -17,3 +24,4 @@ int main() {
     foo({1, 2, 3});
     foo({1, 2, 3, 4, 5});
 }
+

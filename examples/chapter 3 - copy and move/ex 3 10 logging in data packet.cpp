@@ -1,3 +1,10 @@
+// ex 3 10 logging in data packet.cpp
+// example for "C++ Initialization Story"
+// https://leanpub.com/cppinitbook
+// by Bartlomiej Filipek
+// 2022
+// Creative Commons Licence
+
 #include <iostream>
 #include <numeric>
 
@@ -94,3 +101,4 @@ int main() {
               << firstMsg.getData() << "\", sum: " 
               << firstMsg.getCheckSum() << '\n';
 }
+

@@ -1,3 +1,10 @@
+// ex 2 4 most vexing parse error.cpp
+// example for "C++ Initialization Story"
+// https://leanpub.com/cppinitbook
+// by Bartlomiej Filipek
+// 2022
+// Creative Commons Licence
+
 #include <iostream>
 #include <string>
 
@@ -15,3 +22,4 @@ int main() {
     Product p2(Box());
     std::cout << p2.name;
 }
+

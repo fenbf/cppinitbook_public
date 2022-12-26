@@ -1,3 +1,10 @@
+// ex 11 5 beging and end of a thread_local.cpp
+// example for "C++ Initialization Story"
+// https://leanpub.com/cppinitbook
+// by Bartlomiej Filipek
+// 2022
+// Creative Commons Licence
+
 #include <iostream>
 #include <thread>
 #include <mutex>
@@ -24,3 +31,4 @@ int main() {
     }
     std::cout << "end main()\n";
 }
+

@@ -1,3 +1,10 @@
+// ex 1 1 simple car info.cpp
+// example for "C++ Initialization Story"
+// https://leanpub.com/cppinitbook
+// by Bartlomiej Filipek
+// 2022
+// Creative Commons Licence
+
 #include <iostream>
 #include <string>
 
@@ -19,3 +26,4 @@ int main() {
     std::cout << "seats: " << firstCar.seats << '\n';
     std::cout << "power (hp): " << firstCar.power << '\n';
 }
+

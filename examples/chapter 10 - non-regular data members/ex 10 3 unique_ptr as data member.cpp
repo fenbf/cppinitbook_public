@@ -1,3 +1,10 @@
+// ex 10 3 unique_ptr as data member.cpp
+// example for "C++ Initialization Story"
+// https://leanpub.com/cppinitbook
+// by Bartlomiej Filipek
+// 2022
+// Creative Commons Licence
+
 #include <iostream>
 #include <string>
 #include <memory>
@@ -36,3 +43,4 @@ int main() {
     //ProductConst empty;
     //copy = tvset; // error
 }
+

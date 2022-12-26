@@ -1,3 +1,10 @@
+// ex 10 8 showing basic props.cpp
+// example for "C++ Initialization Story"
+// https://leanpub.com/cppinitbook
+// by Bartlomiej Filipek
+// 2022
+// Creative Commons Licence
+
 #include <iostream>
 #include <string>
 #include <vector>
@@ -139,3 +146,4 @@ int main() {
     prods.push_back(Product("car", 567));
     //prods.insert(prods.begin(), Product("ball", 987));
 }
+

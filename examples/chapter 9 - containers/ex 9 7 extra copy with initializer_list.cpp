@@ -1,3 +1,10 @@
+// ex 9 7 extra copy with initializer_list.cpp
+// example for "C++ Initialization Story"
+// https://leanpub.com/cppinitbook
+// by Bartlomiej Filipek
+// 2022
+// Creative Commons Licence
+
 #include <iostream>
 #include <vector>
 
@@ -24,3 +31,4 @@ int main() {
     moreVals.push_back(5);
     moreVals.push_back(6);
 }
+

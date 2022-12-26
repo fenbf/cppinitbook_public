@@ -1,3 +1,10 @@
+// ex 8 10 direct initialization and parens.cpp
+// example for "C++ Initialization Story"
+// https://leanpub.com/cppinitbook
+// by Bartlomiej Filipek
+// 2022
+// Creative Commons Licence
+
 #include <iostream>
 
 int main() {
@@ -6,3 +13,4 @@ int main() {
     std::cout << stars << '\n';
     std::cout << moreStars << '\n';
 }
+

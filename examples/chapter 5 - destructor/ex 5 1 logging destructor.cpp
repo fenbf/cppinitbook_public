@@ -1,3 +1,10 @@
+// ex 5 1 logging destructor.cpp
+// example for "C++ Initialization Story"
+// https://leanpub.com/cppinitbook
+// by Bartlomiej Filipek
+// 2022
+// Creative Commons Licence
+
 #include <iostream>
 #include <string>
 
@@ -30,3 +37,4 @@ int main() {
        Product car("Mustang", 999);
    }
 }
+

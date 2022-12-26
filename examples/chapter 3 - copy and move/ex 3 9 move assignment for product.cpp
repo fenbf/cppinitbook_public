@@ -1,3 +1,10 @@
+// ex 3 9 move assignment for product.cpp
+// example for "C++ Initialization Story"
+// https://leanpub.com/cppinitbook
+// by Bartlomiej Filipek
+// 2022
+// Creative Commons Licence
+
 #include <iostream>
 #include <string>
 
@@ -39,3 +46,4 @@ int main() {
     third = std::move(second); // assignment operator called!
     std::cout << "second.name() after move: " << second.name() << '\n';
 }
+

@@ -1,3 +1,10 @@
+// ex 11 6 static initialization.cpp
+// example for "C++ Initialization Story"
+// https://leanpub.com/cppinitbook
+// by Bartlomiej Filipek
+// 2022
+// Creative Commons Licence
+
 #include <iostream>
 
 struct Value {
@@ -16,3 +23,4 @@ int main() {
     std::cout << x << '\n';
     puts("main ends...");
 }
+

@@ -1,3 +1,10 @@
+// ex 8 6 copy constructors and nsdmi.cpp
+// example for "C++ Initialization Story"
+// https://leanpub.com/cppinitbook
+// by Bartlomiej Filipek
+// 2022
+// Creative Commons Licence
+
 #include <iostream>
 #include <string>
 
@@ -32,3 +39,4 @@ int main() {
     std::cout << "SimpleType t2 = t1:\n";
     SimpleType t2 = t1;
 }
+

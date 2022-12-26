@@ -1,3 +1,10 @@
+// ex 4 1 delegating constructors.cpp
+// example for "C++ Initialization Story"
+// https://leanpub.com/cppinitbook
+// by Bartlomiej Filipek
+// 2022
+// Creative Commons Licence
+
 #include <iostream>
 #include <string>
 
@@ -40,3 +47,4 @@ int main() {
         std::cout << "cannot create: " << e.what() << '\n';
     }
 }
+

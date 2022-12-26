@@ -1,3 +1,10 @@
+// ex 10 7 reference_wrapper as data member.cpp
+// example for "C++ Initialization Story"
+// https://leanpub.com/cppinitbook
+// by Bartlomiej Filipek
+// 2022
+// Creative Commons Licence
+
 #include <iostream>
 #include <string>
 
@@ -30,3 +37,4 @@ int main() {
     //WrapperWitStdhRef def {}; // cannot default construct                             
     x = w; // fine now
 }
+

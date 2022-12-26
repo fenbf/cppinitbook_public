@@ -1,3 +1,10 @@
+// ex 13 6 singleton.cpp
+// example for "C++ Initialization Story"
+// https://leanpub.com/cppinitbook
+// by Bartlomiej Filipek
+// 2022
+// Creative Commons Licence
+
 class Singleton {
 private:
   Singleton() = default;
@@ -16,3 +23,4 @@ public:
 int main() {
     Singleton::getInstance().foo();
 }
+

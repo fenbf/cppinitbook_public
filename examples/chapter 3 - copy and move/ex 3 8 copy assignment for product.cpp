@@ -1,3 +1,10 @@
+// ex 3 8 copy assignment for product.cpp
+// example for "C++ Initialization Story"
+// https://leanpub.com/cppinitbook
+// by Bartlomiej Filipek
+// 2022
+// Creative Commons Licence
+
 #include <iostream>
 #include <string>
 
@@ -39,3 +46,4 @@ int main() {
     Product third { 100, "third" };
     third = second; // assignment operator called!
 }
+

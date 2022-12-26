@@ -1,3 +1,10 @@
+// ex 2 3 constructor for product.cpp
+// example for "C++ Initialization Story"
+// https://leanpub.com/cppinitbook
+// by Bartlomiej Filipek
+// 2022
+// Creative Commons Licence
+
 #include <iostream>
 #include <string>
 
@@ -25,3 +32,4 @@ int main() {
     Product tvSet{77, "tv set" }; 
     std::cout << tvSet.Id() << ", " << tvSet.Name() << '\n';
 }
+

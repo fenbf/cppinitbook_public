@@ -1,3 +1,10 @@
+// ex 12 4 emplace.cpp
+// example for "C++ Initialization Story"
+// https://leanpub.com/cppinitbook
+// by Bartlomiej Filipek
+// 2022
+// Creative Commons Licence
+
 #include <iostream>
 #include <vector>
 
@@ -7,3 +14,4 @@ int main() {
     std::vector<Point> points;
     points.emplace_back(10, 20);
 }
+

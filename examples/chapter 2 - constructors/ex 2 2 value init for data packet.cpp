@@ -1,3 +1,10 @@
+// ex 2 2 value init for data packet.cpp
+// example for "C++ Initialization Story"
+// https://leanpub.com/cppinitbook
+// by Bartlomiej Filipek
+// 2022
+// Creative Commons Licence
+
 #include <iostream>
 #include <numeric>
 
@@ -27,3 +34,4 @@ int main() {
     std::cout << "checkSum: " << packet.getCheckSum() << '\n';
     std::cout << "serverId: " << packet.getServerId() << '\n';
 }
+

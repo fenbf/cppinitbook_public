@@ -1,3 +1,10 @@
+// ex 10 5 shared_ptr as data member.cpp
+// example for "C++ Initialization Story"
+// https://leanpub.com/cppinitbook
+// by Bartlomiej Filipek
+// 2022
+// Creative Commons Licence
+
 #include <iostream>
 #include <string>
 #include <memory>
@@ -42,3 +49,4 @@ int main() {
     }
     std::cout << "pId use count: " << pId.use_count() << '\n';
 }
+

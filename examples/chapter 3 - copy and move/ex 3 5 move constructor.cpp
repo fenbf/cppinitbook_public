@@ -1,3 +1,10 @@
+// ex 3 5 move constructor.cpp
+// example for "C++ Initialization Story"
+// https://leanpub.com/cppinitbook
+// by Bartlomiej Filipek
+// 2022
+// Creative Commons Licence
+
 #include <iostream>
 #include <string>
 
@@ -33,3 +40,4 @@ int main() {
     std::cout << setV2.Name() << " created...\n";
     std::cout << "old value: " << tvSet.Name() << '\n';
 }
+

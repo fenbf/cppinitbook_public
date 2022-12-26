@@ -1,3 +1,10 @@
+// ex 5 5 partial object creation.cpp
+// example for "C++ Initialization Story"
+// https://leanpub.com/cppinitbook
+// by Bartlomiej Filipek
+// 2022
+// Creative Commons Licence
+
 #include <exception>
 #include <iostream>
 #include <string>
@@ -34,3 +41,4 @@ int main() {
         std::cout << "exception: " << ex.what() << '\n';
     }
 }
+

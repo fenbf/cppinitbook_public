@@ -1,3 +1,10 @@
+// ex 3 6 copy on vec resize.cpp
+// example for "C++ Initialization Story"
+// https://leanpub.com/cppinitbook
+// by Bartlomiej Filipek
+// 2022
+// Creative Commons Licence
+
 #include <iostream>
 #include <string>
 #include <vector>
@@ -37,3 +44,4 @@ int main() {
     prods.emplace_back(404, "mug");
     prods.emplace_back(505, "pencil");
 }
+

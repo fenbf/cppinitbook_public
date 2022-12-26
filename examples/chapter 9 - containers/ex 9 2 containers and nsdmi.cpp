@@ -1,3 +1,10 @@
+// ex 9 2 containers and nsdmi.cpp
+// example for "C++ Initialization Story"
+// https://leanpub.com/cppinitbook
+// by Bartlomiej Filipek
+// 2022
+// Creative Commons Licence
+
 #include <array>
 #include <iostream>
 #include <map>
@@ -23,3 +30,4 @@ int main() {
     std::cout << "s.names[9]: " << s.names[9] << '\n';
     std::cout << "s.mapping[\"one\"]: " << s.mapping["one"] << '\n';
 }
+

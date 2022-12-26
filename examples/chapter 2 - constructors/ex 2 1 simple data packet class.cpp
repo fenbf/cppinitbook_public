@@ -1,3 +1,10 @@
+// ex 2 1 simple data packet class.cpp
+// example for "C++ Initialization Story"
+// https://leanpub.com/cppinitbook
+// by Bartlomiej Filipek
+// 2022
+// Creative Commons Licence
+
 #include <iostream>
 #include <numeric>
 
@@ -26,3 +33,4 @@ int main() {
     packet.setData("Programming World");
     std::cout << packet.getCheckSum() << '\n';
 }
+

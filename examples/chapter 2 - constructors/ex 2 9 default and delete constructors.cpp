@@ -1,3 +1,10 @@
+// ex 2 9 default and delete constructors.cpp
+// example for "C++ Initialization Story"
+// https://leanpub.com/cppinitbook
+// by Bartlomiej Filipek
+// 2022
+// Creative Commons Licence
+
 struct Value {
     Value() = default;
 
@@ -23,3 +30,4 @@ int main() {
     // DeletedValue w;   // err, deleted ctor!
     DeletedValue u{10}; // using custom ctor
 }
+

@@ -1,3 +1,10 @@
+// ex 6 3 iterating through map structured binding.cpp
+// example for "C++ Initialization Story"
+// https://leanpub.com/cppinitbook
+// by Bartlomiej Filipek
+// 2022
+// Creative Commons Licence
+
 #include <map>
 #include <iostream>
 
@@ -11,3 +18,4 @@ int main() {
     for (auto&[city, population] : mapCityPopulation)
         std::cout << city << ": " << population << '\n';
 }
+

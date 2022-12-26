@@ -1,3 +1,10 @@
+// ex 9 4 constructor taking initializer_list.cpp
+// example for "C++ Initialization Story"
+// https://leanpub.com/cppinitbook
+// by Bartlomiej Filipek
+// 2022
+// Creative Commons Licence
+
 #include <iostream>
 #include <initializer_list>
 
@@ -19,3 +26,4 @@ int main() {
     X w ( 3 );
     std::cout << "w.count = " << w.count << '\n';
 }
+

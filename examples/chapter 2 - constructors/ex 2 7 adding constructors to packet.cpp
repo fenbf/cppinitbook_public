@@ -1,3 +1,10 @@
+// ex 2 7 adding constructors to packet.cpp
+// example for "C++ Initialization Story"
+// https://leanpub.com/cppinitbook
+// by Bartlomiej Filipek
+// 2022
+// Creative Commons Licence
+
 #include <iostream>
 #include <numeric>
 
@@ -50,3 +57,4 @@ int main() {
     DataPacket reply{"Hi, how are you?", 404};
     printInfo(reply);
 }
+

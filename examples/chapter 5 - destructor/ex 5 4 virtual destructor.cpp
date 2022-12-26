@@ -1,3 +1,10 @@
+// ex 5 4 virtual destructor.cpp
+// example for "C++ Initialization Story"
+// https://leanpub.com/cppinitbook
+// by Bartlomiej Filipek
+// 2022
+// Creative Commons Licence
+
 #include <iostream>
 #include <string>
 #include <memory>
@@ -52,3 +59,4 @@ int main() {
    CallCalculate(*box.get());
    CallCalculate(*water.get());
 }
+

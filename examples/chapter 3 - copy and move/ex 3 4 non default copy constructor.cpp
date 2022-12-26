@@ -1,3 +1,10 @@
+// ex 3 4 non default copy constructor.cpp
+// example for "C++ Initialization Story"
+// https://leanpub.com/cppinitbook
+// by Bartlomiej Filipek
+// 2022
+// Creative Commons Licence
+
 #include <iostream>
 #include <string>
 
@@ -24,3 +31,4 @@ int main() {
     Product first{10, "basic"};
     Product second { first };
 }
+

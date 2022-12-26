@@ -1,3 +1,10 @@
+// ex 12 2 initialization with round parens.cpp
+// example for "C++ Initialization Story"
+// https://leanpub.com/cppinitbook
+// by Bartlomiej Filipek
+// 2022
+// Creative Commons Licence
+
 struct Point { int x; int y; };
 struct PointExt { Point pt; int z; };
 
@@ -19,3 +26,4 @@ int main() {
     // double paramsDeduced[] = (9.81, 3.14, 1.44); // wrong syntax
     int arrX[10]  (1, 2, 3, 4); // rest is 0
 }
+

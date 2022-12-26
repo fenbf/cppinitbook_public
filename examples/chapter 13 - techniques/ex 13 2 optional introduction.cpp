@@ -1,3 +1,10 @@
+// ex 13 2 optional introduction.cpp
+// example for "C++ Initialization Story"
+// https://leanpub.com/cppinitbook
+// by Bartlomiej Filipek
+// 2022
+// Creative Commons Licence
+
 #include <iostream>
 #include <optional>
 
@@ -17,3 +24,4 @@ int main() {
     // value_or()
     std::cout << oi.value_or(42) << '\n';
 }
+

@@ -1,3 +1,10 @@
+// ex 13 3 instance counter.cpp
+// example for "C++ Initialization Story"
+// https://leanpub.com/cppinitbook
+// by Bartlomiej Filipek
+// 2022
+// Creative Commons Licence
+
 #include <iostream>
 
 class InstanceCounter {
@@ -25,3 +32,4 @@ int main() {
     std::cout << "Values: " << Value::GetInstanceCounter() << '\n';
     std::cout << "Wrappers: " << Wrapper::GetInstanceCounter() << '\n';
 }
+

@@ -1,3 +1,10 @@
+// ex 8 4 various nsdmi syntax.cpp
+// example for "C++ Initialization Story"
+// https://leanpub.com/cppinitbook
+// by Bartlomiej Filipek
+// 2022
+// Creative Commons Licence
+
 #include <iostream>
 #include <string_view>
 #include <memory>
@@ -40,3 +47,4 @@ int main() {
     S y { 1 }; // aggregate initialization
     showProperties("y", y);
 }
+
