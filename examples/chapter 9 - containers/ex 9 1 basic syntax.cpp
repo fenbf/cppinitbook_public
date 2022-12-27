@@ -3,7 +3,7 @@
 // https://leanpub.com/cppinitbook
 // by Bartlomiej Filipek
 // 2022
-// Creative Commons Licence
+// MIT License
 
 #include <array>
 #include <iostream>
