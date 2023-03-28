@@ -18,7 +18,7 @@ int main() {
     int nums[10] { 1 }; // 1, and then all 0s
 
     // structures:
-    Line longLone {0, 0, 100, 100};
+    Line longLine {0, 0, 100, 100};
     Line anotherLine = {100}; // rest set to 0
     Line shortLine {{-10, -10}, {10, 10}}; // nested
 }
