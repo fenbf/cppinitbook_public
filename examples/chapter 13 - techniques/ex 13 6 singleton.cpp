@@ -5,9 +5,10 @@
 // 2022
 // MIT License
 
+#include <cstdio>
 class Singleton {
 private:
-  Singleton() = default;
+  Singleton() { puts("Singleton()"); }
   Singleton(const Singleton&) = delete;
   Singleton& operator=(const Singleton&) = delete;
 
@@ -17,10 +18,13 @@ public:
     return instance;
   }
 
-  void foo() { }
+  void foo() { puts("foo()"); }
+  void func() { puts("func()"); }
 };
 
 int main() {
+    puts("main starts...");
     Singleton::getInstance().foo();
+    Singleton::getInstance().func();
 }
 
